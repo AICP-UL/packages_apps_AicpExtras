@@ -22,6 +22,11 @@
     android:key="other_ui"
     android:title="@string/other_ui_title">
 
+     <Preference android:key="default_usb_configuration" 
+            android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment" 
+            android:title="@string/usb_default_config_title"
+            android:summary="@string/usb_default_config_summary"/>
+
      <com.aicp.gear.preference.SystemSettingSeekBarPreference
         android:key="volume_dialog_timeout"
         android:title="@string/volume_dialog_timeout_title"

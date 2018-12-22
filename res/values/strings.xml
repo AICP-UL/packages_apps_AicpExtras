@@ -2016,4 +2016,8 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">Removes the screenshots and screenrecords limits for all applicatications, restart applications for the change to take effect.</string>
+
+    <!-- USB Configuration --> 
+    <string name="usb_default_config_title">USB configuration</string> 
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
 </resources>
