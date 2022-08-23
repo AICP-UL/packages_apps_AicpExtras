@@ -24,6 +24,11 @@
     android:title="@string/theming_title"
     android:summary="@string/theming_summary">
 
+    <Preference android:key="android.theme.customization.style" 
+            android:title="@string/theme_customization_ui_style_title" 
+            android:summary="@string/theme_customization_ui_style_summary"
+            android:fragment="com.aicp.extras.fragments.UIStyles"/>
+
     <PreferenceCategory
         android:key="theming_monet"
         android:title="@string/monet_title">

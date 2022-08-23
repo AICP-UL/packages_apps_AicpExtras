@@ -2020,4 +2020,8 @@
     <!-- USB Configuration --> 
     <string name="usb_default_config_title">USB configuration</string> 
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+
+    <!-- UI styles --> 
+    <string name="theme_customization_ui_style_title">UI Style</string> 
+    <string name="theme_customization_ui_style_summary">Set a custom style for your interface</string>
 </resources>
